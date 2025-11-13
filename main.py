@@ -19,7 +19,14 @@ if not OPENROUTER_API_KEY:
 # ------------------------------
 app = FastAPI(title="Aurora QA API", version="0.3.0")
 
-
+client = OpenAI(
+    base_url="https://openrouter.ai/api/v1",
+    api_key=OPENROUTER_API_KEY,
+    default_headers={
+        "HTTP-Referer": "https://myapp.com",
+        "X-Title": "Aurora QA API"
+    }
+)
 
 
 
