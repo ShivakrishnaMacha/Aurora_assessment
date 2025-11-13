@@ -5,6 +5,8 @@ A **question-answering microservice** built with **FastAPI** and **OpenRouter** 
 🌐 **Live Demo:** [https://aurora-assessment.onrender.com](https://aurora-assessment.onrender.com)  
 📘 **API Docs:** [https://aurora-assessment.onrender.com/docs](https://aurora-assessment.onrender.com/docs)
 
+🎥 **Demo Video:**  
+[https://go.screenpal.com/u/gX9W/Aurora_Assessment](https://go.screenpal.com/u/gX9W/Aurora_Assessment)
 
 For example:
 > - “When is Layla planning her trip to London?”  
@@ -212,6 +214,7 @@ API Docs: http://127.0.0.1:8000/docs
 
 Example Query:
 http://127.0.0.1:8000/ask?question=When%20is%20Layla%20planning%20her%20trip%20to%20London%3F
+
 
 
 
