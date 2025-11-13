@@ -2,6 +2,10 @@
 
 A **question-answering microservice** built with **FastAPI** and **OpenRouter** that can infer answers to natural-language questions based on member messages fetched from a public dataset.
 
+🌐 **Live Demo:** [https://aurora-assessment.onrender.com](https://aurora-assessment.onrender.com)  
+📘 **API Docs:** [https://aurora-assessment.onrender.com/docs](https://aurora-assessment.onrender.com/docs)
+
+
 For example:
 > - “When is Layla planning her trip to London?”  
 > - “How many cars does Vikram Desai have?”  
@@ -60,6 +64,10 @@ uvicorn main:app --reload
 ```
 The API will be available at:
 👉 http://127.0.0.1:8000
+
+Deployed version (Render):
+👉 https://aurora-assessment.onrender.com
+
 
 ##🧠 How It Works
 1️⃣ Fetching Data
@@ -204,5 +212,6 @@ API Docs: http://127.0.0.1:8000/docs
 
 Example Query:
 http://127.0.0.1:8000/ask?question=When%20is%20Layla%20planning%20her%20trip%20to%20London%3F
+
 
 
