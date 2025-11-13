@@ -19,3 +19,10 @@ if not OPENROUTER_API_KEY:
 # ------------------------------
 app = FastAPI(title="Aurora QA API", version="0.3.0")
 
+
+
+
+
+@app.get("/")
+def root():
+    return {"status": "ok", "message": "Aurora QA API running."}
